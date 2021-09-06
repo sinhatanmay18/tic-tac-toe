@@ -32,3 +32,13 @@ line-height: 80px;
   flex-direction: row;
   margin: 0 auto;
 }
+/*GameInfo*/
+ul{
+  padding-left: 30px;
+}
+.game-info {
+  margin-left: 20px;
+}
+.status {
+  margin-bottom: 10px;
+}
