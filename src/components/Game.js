@@ -64,7 +64,7 @@ function calculateWinner(squares){
     console.log('s',squares[0]); 
     for(let i=0;i<lines.length;i++){
         const [a,b,c] = lines[i];
-        
+        //WINNER TAKES HOME
         if(squares[a] && squares[a] === squares[b] && squares[b] === squares[c]){
             console.log("WINNER");
             return squares[a];
